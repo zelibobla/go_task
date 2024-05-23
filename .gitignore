@@ -1,0 +1,64 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+*.workspace
+
+# Build directory
+/build
+
+# Dependency directories
+vendor/
+
+# Ignore the Go module files
+go.sum
+
+# Ignore IDE/editor configuration files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Node modules (in case there are any NodeJS dependencies for some reason)
+node_modules/
+
+# Ignore log files and output files
+*.log
+output.txt
+
+# Ignore specific package-lock and yarn.lock files
+package-lock.json
+yarn.lock
+
+# Ignore MacOS-specific files
+.DS_Store
+
+# Ignore GoLand-specific project files
+*.iml
+.idea/
+
+# Ignore Docker related files
+docker-compose.yml
+Dockerfile
+
+# Ignore test result files
+*.test
+
+# Ignore any other output files
+*.out
+
+# Ignore common temporary files
+*.tmp
+*.temp
+
+# Ignore command files if generated for testing
+commands.txt
+commands1.txt
+commands2.txt
